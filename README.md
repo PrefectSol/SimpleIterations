@@ -4,7 +4,7 @@
 - Example:
 - `./SimpleIterations <epsilon> <alpha> <x0> <exOperator>(default="x-1/5*(2*x+cos(x)+(2*x)/(1+x*x))")`
 
-# Example 1
+### Example 1
 ```bash
 $ ./SimpleIterations 1e-5 0.86 1            
 ```
@@ -21,7 +21,7 @@ Results:
  - x                    = -0.249571
 ```
 
-# Example 2
+### Example 2
 ```bash 
 $ ./SimpleIterations 1e-5 0.86 1  "x-1/(3+sqrt(2))*(2*x-cos(x)+sin(x)+atan(x)-2)"
 ```
