@@ -1,7 +1,9 @@
 ## Simple Method iterations
 
 The method of simple iterations
+
 Example:
+
 `./SimpleIterations <epsilon> <alpha> <x0> <exOperator>(default="x-1/5*(2*x+cos(x)+(2*x)/(1+x*x))")`
 
 ```bash
