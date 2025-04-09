@@ -1,13 +1,13 @@
 ## Simple Method iterations
 
-The method of simple iterations
-
-Example:
-
-`./SimpleIterations <epsilon> <alpha> <x0> <exOperator>(default="x-1/5*(2*x+cos(x)+(2*x)/(1+x*x))")`
+- The method of simple iterations
+- Example:
+- `./SimpleIterations <epsilon> <alpha> <x0> <exOperator>(default="x-1/5*(2*x+cos(x)+(2*x)/(1+x*x))")`
 
 ```bash
-./SimpleIterations 1e-5 0.86 1            
+$ ./SimpleIterations 1e-5 0.86 1            
+```
+```bash 
 Parameters:
  - epsilon:     1e-05
  - alpha:       0.86
@@ -21,8 +21,9 @@ Results:
 ```
 
 ```bash 
-
-./SimpleIterations 1e-5 0.86 1  "x-1/(3+sqrt(2))*(2*x-cos(x)+sin(x)+atan(x)-2)"
+$ ./SimpleIterations 1e-5 0.86 1  "x-1/(3+sqrt(2))*(2*x-cos(x)+sin(x)+atan(x)-2)"
+```
+```bash
 Parameters:
  - epsilon:     1e-05
  - alpha:       0.86
